@@ -1,4 +1,5 @@
 .container {
   background-image: url('/81632.jpg');
-  width: 100%;
+ position: absolute;
+ 
 }

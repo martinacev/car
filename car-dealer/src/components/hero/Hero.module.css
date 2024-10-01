@@ -1,34 +1,31 @@
 .container {
     display: flex;
     padding: 0 200px;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
 }
 
 .title {
-    font-size: 35  px;
+    font-size: 35px;
     line-height: 1.1em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     margin: 0;
 }
 
-
 .subtitle {
     font-size: 18px;
-     margin-top: 10px;
-    width: 100%;
+    margin-top: 10px;
+   
 }
 
-.title,.subtitle {
+.title, .subtitle {
     max-width: 60%;
 }
 
@@ -37,4 +34,90 @@
     align-items: center;
     width: 50%;
     justify-content: center;
+}
+
+
+
+@media (max-width: 1240px) {
+    .container {
+        padding: 0 100px;
+    }
+    .title, .subtitle {
+        max-width: 100%;
+    }
+  
+    .content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+    .subtitle {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 100px;
+        flex-direction: column; 
+    }
+    .content {
+        width: 100%;
+        align-items: center;
+    }
+    .title {
+        font-size: 30px;
+        width: 100%;
+    }
+    .subtitle {
+        width: 100%;
+    }
+    .image {
+        width: 100%; 
+        justify-content: center; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+    .title {
+        font-size: 28px; 
+    }
+    .subtitle {
+        font-size: 16px; 
+    }
+    .image {
+        width: 100%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 30px;
+    }
+    .title {
+        font-size: 20px; 
+    }
+    .subtitle {
+        font-size: 14px; 
+    }
+    .image {
+        width: 100%; 
+    }
 }
