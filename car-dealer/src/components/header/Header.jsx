@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import classes from './header.module.css';
-import logo from '/src/final.png';
+import logo from '../../../public/final.png';
 import dropdown from '../../assets/svg/dropdown.svg';
 
 const Header = () => {
