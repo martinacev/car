@@ -36,6 +36,13 @@
     justify-content: center;
 }
 
+.wrapper {
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    display: flex;
+    width: 100%;
+}
 
 
 @media (max-width: 1240px) {
@@ -87,6 +94,10 @@
     .image {
         width: 100%; 
         justify-content: center; 
+    }
+    .wrapper {      
+        align-items: start;
+        justify-content: start;
     }
 }
 
