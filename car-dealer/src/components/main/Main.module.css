@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 200px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2.5em;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.subtitle {
+    padding-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color: lightgray;
+    margin: 0;
+}
+
+.border {
+    margin: 0;
+    width: 5%;
+    border-bottom: 5px solid red;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+  padding: 0;
+}
+
+.svg {
+    border-radius: 50px;
+    padding: 20px;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    height: auto;
+    color: rgba(255, 255, 255, 0.87);
+}
