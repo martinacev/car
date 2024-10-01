@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; 
 import classes from './Hero.module.css';
-import logo from '/public/hero-car.webp';
+import logo from '/hero-car.webp';
 
 const Hero = ({ title, subtitle }) => {
     return (

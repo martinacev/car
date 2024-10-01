@@ -1,7 +1,5 @@
 import './App.css'
-
 import Hero from './components/hero/Hero'
-
 function App() {
  
 
