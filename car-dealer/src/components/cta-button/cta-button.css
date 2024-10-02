@@ -28,12 +28,12 @@
 }
 
 .btn--danger {
-    background-color: darkred;
+    background-color: orangered;
     color: white;
 }
 
 .btn--danger:hover {
-    background-color: rgb(59, 0, 0);
+    background-color: rgb(143, 40, 3);
 }
 
 .btn--small {
