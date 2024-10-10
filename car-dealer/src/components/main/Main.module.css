@@ -22,7 +22,7 @@
 
 .subtitle {
     padding-bottom: 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
     font-size: 20px;
     color: lightgray;
@@ -42,7 +42,31 @@
 }
 
 .logo {
-  padding: 0;
+  background-color: orangered;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.imageText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.context {
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 25px;
 }
 
 .svg {
@@ -51,4 +75,122 @@
     background-color: orangered;
     height: auto;
     color: rgba(255, 255, 255, 0.87);
+}
+
+/* Media Queries */
+
+/* For screen sizes 1200px and below */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 150px;
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .border {
+        width: 8%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 100px;
+    }
+    
+    .title {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .context {
+        flex-direction: row;
+    }
+    .imageContainer {
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageText{ 
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .border {
+        width: 10%;
+    }
+
+    .context {
+        flex-direction: row;
+        align-items: center;
+    }
+
+   .imageContainer {
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageText{ 
+        font-size: 12px;
+    }
+}
+
+/* For screen sizes 480px and below (mobile devices) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .border {
+        width: 15%;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .context {
+        padding: 30px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageText {
+        font-size: 18px;
+    }
+
+    .imageContainer {
+        margin-bottom: 15px;
+    }
 }
