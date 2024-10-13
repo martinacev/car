@@ -1,13 +1,15 @@
 import classes from './main.module.css';  
 import PropTypes from 'prop-types';
-import documentLogo from "../../assets/svg/statisctic.svg";
-import wheel from "../../assets/svg/wheel.svg";
-import document from "../../assets/svg/document.svg";
+
+import carCheck from "../../../public/car-check.webp";
+import drive from "../../../public/drive.webp";
+import operator from "../../../public/operator.webp";
 
 const images = [
-  { src: documentLogo, alt: "Document Logo", text: "Statistic Overview" },
-  { src: wheel, alt: "Wheel Icon", text: "Automotive Insights" },
-  { src: document, alt: "Document Icon", text: "Document Management" }
+  { src: carCheck, alt: "Document Logo", text: "Browse our wide selection of vehicles and pick the one that fits your needs." },
+  { src: drive, alt: "Wheel Icon", text: "Browse our wide selection of vehicles and pick the one that fits your needs." },
+  { src: operator, alt: "Document Icon", text: "Browse our wide selection of vehicles and pick the one that fits your needs."}
+ 
 ];
 
 const Main = ({ title, subtitle }) => {
