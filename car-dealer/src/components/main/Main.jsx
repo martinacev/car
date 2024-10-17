@@ -34,7 +34,7 @@ const Main = ({ title, subtitle }) => {
 }
 
 Main.defaultProps = {
-  title: "Why Us?",
+  title: "Plan your adventure",
   subtitle: "Because we know what is best for you",
 }
 
